@@ -41,3 +41,35 @@ forvirrende.
 
 FerderKontroll inneholder en intelligent adressebehandling som identifiserer og håndterer slike komplekse adresser, og sikrer nøyaktig
 ruteplanlegging.
+
+## Trinn 4: Kjøretøyvalg
+
+FerderKontroll sjekker hvilke kjøretøy som er tilgjengelige i systemet, og identifiserer hvilke kjøretøy som er tildelt de planlagte turene.
+Systemet unngår å inkludere minibusser og tunge kjøretøy som ikke er en del av logistikksystemet. (Selvfølgelig støtter den det også,
+men vanligvis har minibusser og store busser helt fast rute som aldri endres.
+
+Systemet har også lagret hvor kjøretøy har startposisjon, og har også mange muligheter for konfigurasjon per bil, som for eksempel
+driftstid for kjøretøy eller driftslengde. Alt annet er også justerbart, antall seter, rullestol kapasitet osv.
+
+## Trinn 5: Ruteplanlegging og Resultater
+
+FerderKontroll går deretter gjennom hver planlagt tur og tilordner et bestemt kjøretøy. Dette skjer i samsvar med tidligere konfigurerte
+kjøretøy fra TDS systemet, for eksempel så er en student tilordnet kjøretøyet VT325. Da vil systemet sette den turen på den bilen automatisk, så bygge opp ruta til bilen
+basert på dette.
+
+Til slutt genererer FerderKontroll en oversikt over resultatene som viser hvilke kjøretøy som kjører hvem i hvilke rekkefølge. Systemet viser også
+eventuelle turer den ikke er enig i, samt turer som ikke kunne løses automatisk og må håndteres manuelt av en kvalifisert smarting.
+
+
+*Med disse trinnene sikrer FerderKontroll en optimal ruteplanlegging for effektiv transport av studenter, samtidig som den tar hensyn til brukerpreferanser
+og systemparametere. Dette gjør FerderKontroll til en verdifull ressurs innen logistikk, som kan bidra til voldsomme kostnadsbesparelser og effektiv ressursbruks, samtidig
+som den gir fleksibilitet for tilpasninger basert på brukerens og sentralens behov og unike situasjoner.*
+
+**Bonus:** Systemet er like i stand for å sette opp pasientkjøring som den er skolekjøring. :)
+
+
+
+
+
+*Spoiler:* Dette systemet ble aldri tatt i bruk på ordentlig. Det funker perfekt, men jeg vet ikke hvorfor det var veldig lite interesse. Fikk blandt annet en kommentar
+om at "systemet gjør jobben dems".
