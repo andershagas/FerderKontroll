@@ -68,7 +68,8 @@ som den gir fleksibilitet for tilpasninger basert på brukerens og sentralens be
 **Bonus:** Systemet er like i stand for å sette opp pasientkjøring som den er skolekjøring. :)
 
 
-
+Utenom FerderKontroll så vurderte jeg å lage ett dashboard for alt dette, men dette var kun ett "fritidsprosjekt" som ikke gikk noen vei,
+så ville ikke det. Jeg lagde også ett kart system som viser alle turer til visse tidspunkt. Det gjør det enklere for en person og visualisere alle turer som skjer en at de er på en liste.
 
 
 *Spoiler:* Dette systemet ble aldri tatt i bruk på ordentlig. Det funker perfekt, men jeg vet ikke hvorfor det var veldig lite interesse. Fikk blandt annet en kommentar
